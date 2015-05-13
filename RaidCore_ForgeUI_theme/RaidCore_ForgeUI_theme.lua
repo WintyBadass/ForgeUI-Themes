@@ -105,7 +105,7 @@ end
 
 fnSetBarColor = function(luaCaller, color)
 	luaCaller.Frame:FindChild("RemainingOverlay"):SetBarColor("FF272727")
-	--fnSetBarColorOrig(luaCaller, color)
+	fnSetBarColorOrig(luaCaller, color)
 end
 
 fnSetBGColor = function(luaCaller, color)
